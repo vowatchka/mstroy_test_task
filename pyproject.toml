@@ -1,0 +1,22 @@
+[tool.pytest.ini_options]
+markers=[
+    "all: run all tests",
+    "without_benchmark: run all tests without benchmark",
+    "tree_item: run all tests for tree item",
+    "from_task: run all tests from task description",
+    "from_task_get_all: run all tests from task description for get_all",
+    "from_task_get_item: run all tests from task description for get_item",
+    "from_task_get_children: run all tests from task description for get_children",
+    "from_task_get_all_parents: run all tests from task description for get_all_parents",
+    "simple: run all simple tests",
+    "simple_get_all: run all simple tests for get_all",
+    "simple_get_item: run all simple tests for get_item",
+    "simple_get_children: run all simple tests for get_children",
+    "simple_get_all_parents: run all simple tests for get_all_parents",
+    "with_benchmark: run all benchmarks",
+    "benchmark_init: run benchmarks for __init__",
+    "benchmark_get_all: run benchmarks for get_all",
+    "benchmark_get_item: run benchmarks for get_item",
+    "benchmark_get_children: run benchmarks for get_children",
+    "benchmark_get_all_parents: run benchmarks for get_all_parents",
+]

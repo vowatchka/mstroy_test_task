@@ -23,4 +23,5 @@ jobs:
 
       - name: Test with pytest
         run: |
-          python -m pytest -m without_benchmark -v tests/
+          coverage run -m pytest -m without_benchmark -v tests/
+          coverage report -im --skip-covered --omit "tests/*"
